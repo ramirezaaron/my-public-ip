@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Make content area fill the entire browser window */
@@ -29,4 +29,5 @@ input, input:focus-visible, input:focus-within{
     color: transparent;
     background-color: transparent;
     width: 1px;
+    height: 1px;
 }
