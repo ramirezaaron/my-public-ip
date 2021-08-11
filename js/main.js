@@ -13,6 +13,9 @@ window.onload = () => {
         input.setSelectionRange(0, 99999)
         document.execCommand("copy");
         console.log(input.value);
+
+        btn.innerText = "Copied";
+        setTimeout(() => { btn.innerText = "Copy"; }, 3000); 
     });
 
     fetch("https://publicip.pielusa.fun/")
