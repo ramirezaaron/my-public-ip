@@ -26,5 +26,3 @@ window.onload = () => {
       document.querySelector("#hidden-ip-address").value = data.ip;
     });
   }
-  
-  
